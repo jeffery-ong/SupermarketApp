@@ -20,6 +20,7 @@ const upload = multer({ storage: storage });
 const connection = mysql.createConnection({
     host: 'fw7wnc.h.filess.io',
     user: 'c237supermarket_deeplyload',
+    root: 3307,
     password: 'f45d9d4fd3be1eda80a0dd8eb6b4ba79e8c1d53e',
     database: 'c237supermarket_deeplyload'
   });
